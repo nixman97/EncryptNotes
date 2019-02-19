@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="save">save</string>
+    <string name="Untitled">Untitled</string>
+    <string name="emptyBody">…</string>
+    <string name="discard">Discard changes</string>
+    <string name="share">Share</string>
+    <string name="delete">Delete</string>
+    <string name="toggle_encryption">Enable encryption</string>
+    <string name="toggle_fingerprint">Enable fingerprint</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="multiple_fingerprints_wrong">Too many atempts, use backup method!</string>
+    <string name="fail_auth">Try Again!</string>
+    <string name="pass_solicitation">Please enter your password</string>
+    <string name="PIN_request">Too many fingerprint attempts. Please enter PIN!</string>
+    <string name="pin_activity_request">Please enter PIN code!</string>
+    <string name="pin_set">Please set a PIN code as backup method for fingerprint!</string>
+    <string name="qr_copy_notes">Please scan the following QR code with the device you want to copy your notes on.</string>
+    <string name="send_to_device">Send to device</string>
+    <string name="receive_notes">Receive notes</string>
+
+    <string name="title_activity_receive_activity">Scan QR Code</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
