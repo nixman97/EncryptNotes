@@ -5,7 +5,7 @@
     <item
         android:id="@+id/menu_search"
         android:title="ll"
-        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="always"
 
         android:textColor="@color/searchCol"
