@@ -26,6 +26,25 @@ class Utils {
         this.passwd = passwd;
 
     }
+    public boolean checkPasswordSecurity(String passwd) {
+        int u=0;
+        int n=0;
+        int a=0;
+        if (passwd.length()<8)
+            return false;
+        for (int i=0;i<passwd.length();i++) {
+            if (Character.isUpperCase(passwd.charAt(i))) {
+                u++;
+            }
+            if (!Character.isAlphabetic(passwd.charAt(i))) {
+                n++;
+            }
+            if (!Character.isAlphabetic(passwd.charAt(i))) {
+                a++;
+            }
+        }
+        return u > 2 && n > 3 && a > 2;
+    }
     public String encrypt(IvParameterSpec iv, String text, String passwd) {
 
         MessageDigest digest = null;
