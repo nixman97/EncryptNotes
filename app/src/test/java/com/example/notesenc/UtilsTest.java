@@ -46,10 +46,11 @@ public class UtilsTest {
     @Test
     public void encTestFail() {
         //ECP
-        //assertTrue(Utils.getInstance().checkPasswordSecurity("121HQWheoppiiuhgv"));
+        /////assertTrue(Utils.getInstance().checkPasswordSecurity("121HQWheoppiiuhgv"));
     }
 
     //A
+    @Test
     public void checkPassword() {
         assertTrue(Utils.getInstance().checkPasswordSecurity("HEYSecurity1234"));
         assertFalse(Utils.getInstance().checkPasswordSecurity("HEYSecurity1"));
